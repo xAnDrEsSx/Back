@@ -1,3 +1,7 @@
+using TestQuala.Application;
+using TestQuala.Domain;
+using TestQuala.Infrastructure;
+
 public class Program
 {
     private static void Main(string[] args)
@@ -11,7 +15,13 @@ public class Program
         builder.Services.AddEndpointsApiExplorer();
         builder.Services.AddSwaggerGen();
 
+        builder.Services.AddInfraestructuraServices(builder.Configuration);
+        builder.Services.AddApplication();
+        builder.Services.AddDomain();
+
         var app = builder.Build();
+
+
 
         // Configure the HTTP request pipeline.
         if (app.Environment.IsDevelopment())
