@@ -7,11 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Contracts\Persistence\" />
-    <Folder Include="Features\BranchStores\Commands\" />
+    <Folder Include="Features\BranchStores\Commands\UpdateBranchStore\" />
     <Folder Include="Features\BranchStores\Queries\" />
     <Folder Include="Features\CurrencyTypes\Queries\GetCurrencyTypes\" />
-    <Folder Include="Mappings\" />
   </ItemGroup>
 
   <ItemGroup>

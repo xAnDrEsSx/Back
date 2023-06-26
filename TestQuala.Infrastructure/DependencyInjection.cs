@@ -1,7 +1,9 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using TestQuala.Application.Contracts.Persistence;
 using TestQuala.Infrastructure.Persistence;
+using TestQuala.Infrastructure.Repositories;
 
 namespace TestQuala.Infrastructure
 {
@@ -12,6 +14,9 @@ namespace TestQuala.Infrastructure
         {
             services.AddDbContext<TestDbContext>(options =>
                 options.UseSqlServer(Base64Decode(GetConnection().GetConnectionString("Database"))));
+
+            services.AddScoped(typeof(IAsyncRepository<>), typeof(RepositoryBase<>));
+            services.AddScoped<IBranchStoreRepository, BranchStoreRepository>();
 
             return services;
         }
