@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "X82HqyJz6bzraqkVvD8gef4NM42A0+ZUoWpErnJxR/c=",
+  "Source": "TestQuala.Api",
+  "BasePath": "_content/TestQuala.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

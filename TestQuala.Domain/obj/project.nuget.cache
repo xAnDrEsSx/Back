@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Wcx1U3TOzcv5AA09emL0secdFumvdBMGl3zHa3hfMJHlxyGhYYw5bC4kI23o4FJPMryWtth0M3K3EtuFQMS58g==",
+  "success": true,
+  "projectFilePath": "C:\\repo\\backend\\Back\\TestQuala.Domain\\TestQuala.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\andre\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.8\\microsoft.entityframeworkcore.abstractions.7.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}
