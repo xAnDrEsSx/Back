@@ -1,8 +1,22 @@
 {
   "version": 2,
-  "dgSpecHash": "0GFj2CQAbBvfqDbOzSDt/TT99G9WNIlDVNTzGw6bjv+t68Xxre1KL2A2yNbakKmTwwqTbX+K29uZVNuIcpRHWA==",
+  "dgSpecHash": "ndywBy6yqWvQnFzSfr0U3lc/Tg7QzmbKDagH7TIzAwawJz15/7yCde++fxZmT16yy3LQtnb5oPDYK3EgN7G6xg==",
   "success": true,
   "projectFilePath": "C:\\repo\\backend\\Back\\TestQuala.Application\\TestQuala.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\andre\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\andre\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
+    "C:\\Users\\andre\\.nuget\\packages\\fluentvalidation\\11.5.2\\fluentvalidation.11.5.2.nupkg.sha512",
+    "C:\\Users\\andre\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.2\\fluentvalidation.dependencyinjectionextensions.11.5.2.nupkg.sha512",
+    "C:\\Users\\andre\\.nuget\\packages\\mediatr\\11.0.0\\mediatr.11.0.0.nupkg.sha512",
+    "C:\\Users\\andre\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\andre\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.0.0\\mediatr.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+    "C:\\Users\\andre\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\andre\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.8\\microsoft.entityframeworkcore.abstractions.7.0.8.nupkg.sha512",
+    "C:\\Users\\andre\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\andre\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\andre\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\andre\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

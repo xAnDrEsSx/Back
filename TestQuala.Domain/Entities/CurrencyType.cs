@@ -4,20 +4,18 @@ using TestQuala.Domain.Entities.Common;
 
 namespace TestQuala.Domain.Entities
 {
-    public record class CurrencyType : BaseDomainModel
+    public class CurrencyType : BaseDomainModel
     {
-        #region params
-        
         /// <summary>
         /// Id Currency
         /// </summary>
+        [Key]
         [Comment("Unique ID")]
         public Guid Id { get; set; } = new Guid();
 
         [Comment("Currency Description")]
+        [Required]
         [MaxLength(50)]
         public string CurrencyName { get; set; } = string.Empty;
-
-        #endregion
     }
 }

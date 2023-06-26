@@ -1,0 +1,17 @@
+C:\repo\backend\Back\TestQuala.Infrastructure\bin\Debug\net6.0\TestQuala.Infrastructure.deps.json
+C:\repo\backend\Back\TestQuala.Infrastructure\bin\Debug\net6.0\TestQuala.Infrastructure.dll
+C:\repo\backend\Back\TestQuala.Infrastructure\bin\Debug\net6.0\TestQuala.Infrastructure.pdb
+C:\repo\backend\Back\TestQuala.Infrastructure\bin\Debug\net6.0\TestQuala.Application.dll
+C:\repo\backend\Back\TestQuala.Infrastructure\bin\Debug\net6.0\TestQuala.Domain.dll
+C:\repo\backend\Back\TestQuala.Infrastructure\bin\Debug\net6.0\TestQuala.Application.pdb
+C:\repo\backend\Back\TestQuala.Infrastructure\bin\Debug\net6.0\TestQuala.Domain.pdb
+C:\repo\backend\Back\TestQuala.Infrastructure\obj\Debug\net6.0\TestQuala.Infrastructure.csproj.AssemblyReference.cache
+C:\repo\backend\Back\TestQuala.Infrastructure\obj\Debug\net6.0\TestQuala.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\repo\backend\Back\TestQuala.Infrastructure\obj\Debug\net6.0\TestQuala.Infrastructure.AssemblyInfoInputs.cache
+C:\repo\backend\Back\TestQuala.Infrastructure\obj\Debug\net6.0\TestQuala.Infrastructure.AssemblyInfo.cs
+C:\repo\backend\Back\TestQuala.Infrastructure\obj\Debug\net6.0\TestQuala.Infrastructure.csproj.CoreCompileInputs.cache
+C:\repo\backend\Back\TestQuala.Infrastructure\obj\Debug\net6.0\TestQuala.Infrastructure.csproj.CopyComplete
+C:\repo\backend\Back\TestQuala.Infrastructure\obj\Debug\net6.0\TestQuala.Infrastructure.dll
+C:\repo\backend\Back\TestQuala.Infrastructure\obj\Debug\net6.0\refint\TestQuala.Infrastructure.dll
+C:\repo\backend\Back\TestQuala.Infrastructure\obj\Debug\net6.0\TestQuala.Infrastructure.pdb
+C:\repo\backend\Back\TestQuala.Infrastructure\obj\Debug\net6.0\ref\TestQuala.Infrastructure.dll

@@ -7,7 +7,17 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.8">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TestQuala.Application\TestQuala.Application.csproj" />
+    <ProjectReference Include="..\TestQuala.Domain\TestQuala.Domain.csproj" />
+    <ProjectReference Include="..\TestQuala.Infrastructure\TestQuala.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,0 +1,12 @@
+C:\repo\backend\Back\TestQuala.Domain\bin\Debug\net6.0\TestQuala.Domain.deps.json
+C:\repo\backend\Back\TestQuala.Domain\bin\Debug\net6.0\TestQuala.Domain.dll
+C:\repo\backend\Back\TestQuala.Domain\bin\Debug\net6.0\TestQuala.Domain.pdb
+C:\repo\backend\Back\TestQuala.Domain\obj\Debug\net6.0\TestQuala.Domain.csproj.AssemblyReference.cache
+C:\repo\backend\Back\TestQuala.Domain\obj\Debug\net6.0\TestQuala.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\repo\backend\Back\TestQuala.Domain\obj\Debug\net6.0\TestQuala.Domain.AssemblyInfoInputs.cache
+C:\repo\backend\Back\TestQuala.Domain\obj\Debug\net6.0\TestQuala.Domain.AssemblyInfo.cs
+C:\repo\backend\Back\TestQuala.Domain\obj\Debug\net6.0\TestQuala.Domain.csproj.CoreCompileInputs.cache
+C:\repo\backend\Back\TestQuala.Domain\obj\Debug\net6.0\TestQuala.Domain.dll
+C:\repo\backend\Back\TestQuala.Domain\obj\Debug\net6.0\refint\TestQuala.Domain.dll
+C:\repo\backend\Back\TestQuala.Domain\obj\Debug\net6.0\TestQuala.Domain.pdb
+C:\repo\backend\Back\TestQuala.Domain\obj\Debug\net6.0\ref\TestQuala.Domain.dll
