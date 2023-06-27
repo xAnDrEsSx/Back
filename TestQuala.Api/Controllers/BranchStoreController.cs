@@ -58,9 +58,10 @@ namespace TestQuala.Api.Controllers
 
         }
 
-        [HttpDelete("DeleteBranch")]
-        public async Task<ActionResult> DeleteBranch([FromBody] DeleteBranchStoreCommand query)
+        [HttpDelete("DeleteBranch/{id}")]
+        public async Task<ActionResult> DeleteBranch([FromRoute] string id)
         {
+            DeleteBranchStoreCommand query = new DeleteBranchStoreCommand() { Id = new Guid(id)};
             var response = await mediator.Send(query);
             if (response.Succeeded)
             {

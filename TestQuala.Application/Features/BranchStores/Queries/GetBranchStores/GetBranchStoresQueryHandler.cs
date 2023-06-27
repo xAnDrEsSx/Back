@@ -37,7 +37,7 @@ namespace TestQuala.Application.Features.BranchStores.Queries.GetBranchStores
             var branchs = _branchStoreRepository.GetAllAsync().Result;
             var listBranchs = new List<BranchStoreVM>();
 
-            foreach(var branch in branchs)
+            foreach(var branch in branchs.OrderByDescending(b => b.CreatedDate))
             {
                 var currencyType = currencyTypes.Where(c => c.Id == branch.CurrencyTypeId).FirstOrDefault();
 

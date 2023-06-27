@@ -19,6 +19,15 @@ public class Program
         builder.Services.AddApplication();
         builder.Services.AddDomain();
 
+        builder.Services.AddCors(options =>
+        {
+            options.AddPolicy("CorsPolicy", builder => builder.AllowAnyOrigin()
+            .AllowAnyMethod()
+            .AllowAnyHeader()
+            );
+        });
+
+
         var app = builder.Build();
 
         // Configure the HTTP request pipeline.
@@ -31,6 +40,8 @@ public class Program
         app.UseHttpsRedirection();
 
         app.UseAuthorization();
+
+        app.UseCors("CorsPolicy");
 
         app.MapControllers();
 
