@@ -2,6 +2,9 @@
 using Microsoft.AspNetCore.Mvc;
 using TestQuala.Application.Features.BranchStores.Commands.CreateBranchStore;
 using TestQuala.Application.Features.BranchStores.Commands.DeleteBranchStore;
+using TestQuala.Application.Features.BranchStores.Commands.UpdateBranchStore;
+using TestQuala.Application.Features.BranchStores.Queries.GetBranchStores;
+using TestQuala.Domain.Entities.Common;
 
 namespace TestQuala.Api.Controllers
 {
@@ -16,51 +19,56 @@ namespace TestQuala.Api.Controllers
             this.mediator = mediator;
         }
 
-        [HttpPost]
+        [HttpGet]
+        public async Task<ResponseModel<List<BranchStoreVM>>> GetBranchs()
+        {
+            return await mediator.Send(new GetBranchStoresQuery());
+        }
+
+
+        [HttpPost("CreateBranch")]
         public async Task<ActionResult> CreateBranch([FromBody] CreateBranchStoreCommand query)
         {
 
             var response = await mediator.Send(query);
             if (response.Succeeded)
             {
-                return Ok(response.Data);
+                return Ok(response);
             }
             else
             {
-                return BadRequest(new { Mensaje = response.Message });
+                return BadRequest(response);
             }
 
         }
 
-        [HttpPost]
-        public async Task<ActionResult> UpdateBranch([FromBody] CreateBranchStoreCommand query)
+        [HttpPut("UpdateBranch")]
+        public async Task<ActionResult> UpdateBranch([FromBody] UpdateBranchStoreCommand query)
         {
 
             var response = await mediator.Send(query);
             if (response.Succeeded)
             {
-                return Ok(response.Data);
+                return Ok(response);
             }
             else
             {
-                return BadRequest(new { Mensaje = response.Message });
+                return BadRequest(response);
             }
 
         }
 
-
-
-        [HttpDelete]
+        [HttpDelete("DeleteBranch")]
         public async Task<ActionResult> DeleteBranch([FromBody] DeleteBranchStoreCommand query)
         {
             var response = await mediator.Send(query);
             if (response.Succeeded)
             {
-                return Ok(response.Message);
+                return Ok(response);
             }
             else
             {
-                return BadRequest(new { Mensaje = response.Message });
+                return BadRequest(response);
             }
         }
 

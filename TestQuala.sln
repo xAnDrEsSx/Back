@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestQuala.Api", "TestQuala.Api\TestQuala.Api.csproj", "{D8247A43-439B-4DB7-9E93-9EBF3C46EA98}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestQuala.Domain", "TestQuala.Domain\TestQuala.Domain.csproj", "{05D7B5AE-0F16-490B-8140-729762175097}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestQuala.Domain", "TestQuala.Domain\TestQuala.Domain.csproj", "{05D7B5AE-0F16-490B-8140-729762175097}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestQuala.Application", "TestQuala.Application\TestQuala.Application.csproj", "{FB7CBD7C-25A9-4E45-A4EF-9F02A0AF8990}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestQuala.Application", "TestQuala.Application\TestQuala.Application.csproj", "{FB7CBD7C-25A9-4E45-A4EF-9F02A0AF8990}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestQuala.Infrastructure", "TestQuala.Infrastructure\TestQuala.Infrastructure.csproj", "{810DB07F-A199-4D52-ABA3-F5336920E453}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestQuala.Infrastructure", "TestQuala.Infrastructure\TestQuala.Infrastructure.csproj", "{810DB07F-A199-4D52-ABA3-F5336920E453}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestQuala.Api", "TestQuala.Api\TestQuala.Api.csproj", "{3565C662-3185-42C0-8DEA-E75445D06378}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D8247A43-439B-4DB7-9E93-9EBF3C46EA98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D8247A43-439B-4DB7-9E93-9EBF3C46EA98}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D8247A43-439B-4DB7-9E93-9EBF3C46EA98}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D8247A43-439B-4DB7-9E93-9EBF3C46EA98}.Release|Any CPU.Build.0 = Release|Any CPU
 		{05D7B5AE-0F16-490B-8140-729762175097}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{05D7B5AE-0F16-490B-8140-729762175097}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05D7B5AE-0F16-490B-8140-729762175097}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -33,6 +29,10 @@ Global
 		{810DB07F-A199-4D52-ABA3-F5336920E453}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{810DB07F-A199-4D52-ABA3-F5336920E453}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{810DB07F-A199-4D52-ABA3-F5336920E453}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3565C662-3185-42C0-8DEA-E75445D06378}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3565C662-3185-42C0-8DEA-E75445D06378}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3565C662-3185-42C0-8DEA-E75445D06378}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3565C662-3185-42C0-8DEA-E75445D06378}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

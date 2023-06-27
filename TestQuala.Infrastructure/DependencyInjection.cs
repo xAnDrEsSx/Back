@@ -17,6 +17,7 @@ namespace TestQuala.Infrastructure
 
             services.AddScoped(typeof(IAsyncRepository<>), typeof(RepositoryBase<>));
             services.AddScoped<IBranchStoreRepository, BranchStoreRepository>();
+            services.AddScoped<ICurrencyTypeRepository, CurrencyTypeRepository>();
 
             return services;
         }

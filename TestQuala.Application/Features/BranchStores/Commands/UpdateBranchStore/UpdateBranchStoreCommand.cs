@@ -12,6 +12,5 @@ namespace TestQuala.Application.Features.BranchStores.Commands.UpdateBranchStore
         public string Address { get; set; } = string.Empty;
         public string Identification { get; set; } = string.Empty;
         public Guid CurrencyTypeId { get; set; }
-        public DateTime? LastModifiedDate { get; set; }
     }
 }

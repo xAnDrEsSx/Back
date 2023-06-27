@@ -4,6 +4,5 @@ namespace TestQuala.Application.Contracts.Persistence
 {
     public interface IBranchStoreRepository : IAsyncRepository<BranchStore>
     {
-
     }
 }

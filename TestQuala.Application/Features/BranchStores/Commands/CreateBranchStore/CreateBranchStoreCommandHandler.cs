@@ -26,6 +26,26 @@ namespace TestQuala.Application.Features.BranchStores.Commands.CreateBranchStore
                     new ResponseModel<bool>("Error Request");
                 }
 
+                var branchs = _branchStoreRepository.GetAllAsync().Result;
+
+                if (branchs != null)
+                {
+                    if (branchs.Any(b => b.Description == request?.Description))
+                    {
+                        return new ResponseModel<BranchStore>(false, "Ya existe una tienda con esa descripcion!");
+                    }
+
+                    if (branchs.Any(b => b.Code == request?.Code))
+                    {
+                        return new ResponseModel<BranchStore>(false, "Ya existe una tienda con ese Código!");
+                    }
+                    if (branchs.Any(b => b.Identification == request?.Identification))
+                    {
+                        return new ResponseModel<BranchStore>(false, "Ya existe una tienda con esa Identificacion!");
+                    }
+                }
+
+
                 var newBranch = _mapper.Map<BranchStore>(request);
                 await _branchStoreRepository.AddAsync(newBranch);
                 return new ResponseModel<BranchStore>(newBranch, "BranchStore created!");
@@ -36,6 +56,5 @@ namespace TestQuala.Application.Features.BranchStores.Commands.CreateBranchStore
             }
 
         }
-
     }
 }
